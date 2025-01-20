@@ -38,7 +38,6 @@ function Projectwrapper() {
                         withIndicators
                         height="100%"
                         dragFree
-                        loop
                         slideSize="33.333333%"
                         slideGap="md"
                         align="start"
@@ -78,57 +77,6 @@ function Projectwrapper() {
 
                                 </Group>
                                 <Text ta="justify" py={20}>D.C.Converted residential sites in fully developed plotted layout in Maragondanahalli,</Text>
-                                <Button variant="filled" color='teal' size='md' component='a' href='/projectdetails'>View details</Button>
-                            </Card>
-                        </Carousel.Slide>
-                        <Carousel.Slide>
-                            <Card shadow="sm" padding="lg" radius="md" withBorder>
-                                <Card.Section>
-                                    <Image
-                                        src={project3}
-                                        height={260}
-                                        alt="Norway"
-                                    />
-                                </Card.Section>
-                                <Group justify="space-between" mt="md" >
-                                    <Text fw={700} style={{ fontSize: "20px" }} ta="center">Green Avenues</Text>
-
-                                </Group>
-                                <Text ta="justify" py={20}>Green Avenues residential sites in fully developed plotted layout in Ramsandra village Narsapura.</Text>
-                                <Button variant="filled" color='teal' size='md' component='a' href='/projectdetails'>View Details</Button>
-                            </Card>
-                        </Carousel.Slide>
-                        <Carousel.Slide>
-                            <Card shadow="sm" padding="lg" radius="md" withBorder>
-                                <Card.Section>
-                                    <Image
-                                        src={project2}
-                                        height={260}
-                                        alt="Norway"
-                                    />
-                                </Card.Section>
-                                <Group justify="space-between" mt="md" >
-                                    <Text fw={700} style={{ fontSize: "20px" }} ta="center">GREENWOOD MEADOWS</Text>
-
-                                </Group>
-                                <Text ta="justify" py={20}>D.C.Converted residential sites in fully developed plotted layout in Maragondanahalli,</Text>
-                                <Button variant="filled" color='teal' size='md' component='a' href='/projectdetails'>View details</Button>
-                            </Card>
-                        </Carousel.Slide>
-                        <Carousel.Slide>
-                            <Card shadow="sm" padding="lg" radius="md" withBorder>
-                                <Card.Section>
-                                    <Image
-                                        src={project1}
-                                        height={260}
-                                        alt="Norway"
-                                    />
-                                </Card.Section>
-                                <Group justify="space-between" mt="md" >
-                                    <Text fw={700} style={{ fontSize: "20px" }} ta="center">PRERANA GREENS</Text>
-
-                                </Group>
-                                <Text ta="justify" py={20}>We have a just added a lot more space into your life.Here's PRERANA INNOVATION DEVELOPERS.</Text>
                                 <Button variant="filled" color='teal' size='md' component='a' href='/projectdetails'>View details</Button>
                             </Card>
                         </Carousel.Slide>

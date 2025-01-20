@@ -147,7 +147,7 @@ function Footer() {
                 <div className="footer-top-wrapper">
                     <div className="footer-col">
                         <a href="#">
-                            <img src={logo} alt="" width="150px" />
+                            <img src={logo} alt="" width="150px" height="60px" />
                         </a>
                     </div>
                     <div className="footer-col links">

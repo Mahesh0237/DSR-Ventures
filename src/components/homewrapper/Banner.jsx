@@ -15,7 +15,7 @@ import slider11 from '../../assets/slider11.jpeg'
 import slider12 from '../../assets/slider12.jpeg'
 import slider13 from '../../assets/slider13.jpeg'
 import slider14 from '../../assets/slider14.jpeg'
-import video from '../../assets/brochure/DSR.mp4'
+import video from '../../assets/brochure/DSR1.mp4'
 import video2 from '../../assets/brochure/DSR2.mp4'
 function Banner() {
     const autoplay = useRef(Autoplay({ delay: 2000 }));
@@ -34,13 +34,13 @@ function Banner() {
     }
     return (
         <Stack>
-            <div style={{ height: updateheight, display: 'flex' }}>
+            <div style={{ height: updateheight, display: 'flex', marginTop:"80px" }}>
                 <Carousel
                     withControls={false}
                     withIndicators
                     height="100%"
                     dragFree
-                    
+
                     style={{ flex: 1 }}
                     plugins={[autoplay.current]}
                     onMouseEnter={autoplay.current.stop}
@@ -55,7 +55,7 @@ function Banner() {
                     </Carousel.Slide>
                     <Carousel.Slide>
                         <div style={{ width: '100%', height: '100%' }}>
-                            <video controls muted loop width="100%" height="100%">
+                            <video controls autoPlay muted loop width="100%" height="100%">
                                 <source src={video2} type="video/mp4" />
                             </video>
                         </div>

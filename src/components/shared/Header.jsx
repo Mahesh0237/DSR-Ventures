@@ -1,17 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../../assets/logo.jpg'
 import { useWindowScroll } from '@mantine/hooks';
-import { Group } from '@mantine/core';
+import { Drawer, Group } from '@mantine/core';
+import Drawernav from './Drawernav';
 
 function Header() {
-    const [scroll, scrollTo] = useWindowScroll();
+    const [drawer, setDrawer] = useState(false)
+    const openDrawer = () => {
+        setDrawer(true)
+    }
+    const closeDrawer = () => {
+        setDrawer(false)
+    }
     return (
         <header className="minimized" >
             <div className="section-wrapper">
                 <div className="header-wrapper">
                     <div className="site-logo">
                             <a href="/" rel="home">
-                                <img src={logo} width="150px" height="50px" />
+                                <img src={logo} width="160px" height="60px" />
                             </a>
                     </div>
                     <nav className="main-navigation">
@@ -24,13 +31,22 @@ function Header() {
                             </ul>
                         </div>
                     </nav>
-                    <button className="hamburger hamburger--spring" type="button">
+                    <button className="hamburger hamburger--spring" type="button" onClick={openDrawer}>
                         <span className="hamburger-box">
                             <span className="hamburger-inner"></span>
                         </span>
                     </button>
                 </div>
             </div>
+            <Drawer
+                opened={drawer}
+                onClose={closeDrawer}
+                zIndex={99999}
+                size="xs"
+                withCloseButton={false}
+            >
+                <Drawernav />
+            </Drawer>
         </header>
     )
 }

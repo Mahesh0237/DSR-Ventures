@@ -42,7 +42,7 @@ function Projectswrapper() {
                                     </a>
                                 </div>
                                 <div className="slide">
-                                    <a className="main-part" href='/projectdetails'>
+                                    <a className="main-part" href='/preranagreensdetails'>
                                         <div className="img">
                                             <div className="box">
                                                 <div></div>
@@ -103,44 +103,47 @@ function Projectswrapper() {
                 </div>
             </section>
             <section className='aboutus mb-5'>
-                <Grid px={50}>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
-                        <Stack p={15}>
-                            <Text style={{ fontSize: "35px" }} fw={700}>Explore the Grandeur of Design Driven Projects</Text>
-                            <Text size='lg'> Detail crafted with love to harmonise with your soul. surrounding to create a mesmerising living experience</Text>
-                            <Text size='lg'>Classical Elegance in every inch bringing timeless charm and sophistication to your home</Text>
-                            <Text size='lg'>An epitome of contemporary living, modern designs that are driven by captivating æsthetics and keen attention to detail</Text>
-                        </Stack>
-                    </Grid.Col>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
-                        <Carousel
-                            withIndicators
-                            height={350}
-                            loop
-                            withControls={false}
-                            plugins={[autoplay.current]}
-                            onMouseEnter={autoplay.current.stop}
-                            onMouseLeave={autoplay.current.reset}
-                        >
-                            <Carousel.Slide>
-                                <img src={explore} height="100%" width="100%" alt='' />
-                            </Carousel.Slide>
-                            <Carousel.Slide>
-                                <img src={home3} height="100%" width="100%" alt='' />
-                            </Carousel.Slide>
-                            <Carousel.Slide>
-                                <img src={home4} height="100%" width="100%" alt='' />
-                            </Carousel.Slide>
-                            <Carousel.Slide>
-                                <img src={home5} height="100%" width="100%" alt='' />
-                            </Carousel.Slide>
-                        </Carousel>
-                    </Grid.Col>
-                </Grid> 
+                <Container size={1350}>
+                    <Grid>
+                        <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
+                            <Stack p={15}>
+                                <Text style={{ fontSize: "30px" }} fw={700}>Explore the Grandeur of Design Driven Projects</Text>
+                                <Text size='lg'> Detail crafted with love to harmonise with your soul. surrounding to create a mesmerising living experience</Text>
+                                <Text size='lg'>Classical Elegance in every inch bringing timeless charm and sophistication to your home</Text>
+                                <Text size='lg'>An epitome of contemporary living, modern designs that are driven by captivating æsthetics and keen attention to detail</Text>
+                            </Stack>
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
+                            <Carousel
+                                withIndicators
+                                height={350}
+                                loop
+                                withControls={false}
+                                plugins={[autoplay.current]}
+                                onMouseEnter={autoplay.current.stop}
+                                onMouseLeave={autoplay.current.reset}
+                            >
+                                <Carousel.Slide>
+                                    <img src={explore} height="100%" width="100%" alt='' />
+                                </Carousel.Slide>
+                                <Carousel.Slide>
+                                    <img src={home3} height="100%" width="100%" alt='' />
+                                </Carousel.Slide>
+                                <Carousel.Slide>
+                                    <img src={home4} height="100%" width="100%" alt='' />
+                                </Carousel.Slide>
+                                <Carousel.Slide>
+                                    <img src={home5} height="100%" width="100%" alt='' />
+                                </Carousel.Slide>
+                            </Carousel>
+                        </Grid.Col>
+                    </Grid>
+                </Container>
             </section>
 
             <section className='aboutus my-5'>
-                <Grid px={50} mt={100}>
+            <Container size={1350}>
+                <Grid mt={100}>
                     <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
                         <Carousel
                             withIndicators
@@ -176,6 +179,7 @@ function Projectswrapper() {
                         </Stack>
                     </Grid.Col>
                 </Grid>
+                </Container>
             </section>
             <Enquireyform />
             <div className="enquiry-sticky">
