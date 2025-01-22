@@ -1,8 +1,8 @@
 import { Container, Grid, Group, Stack, Text } from '@mantine/core'
 import React, { useRef } from 'react'
 import Projectshared from './shared/Projectshared'
-import project1 from '../../assets/project11.jpeg'
-import project2 from '../../assets/project22.jpeg'
+import project1 from '../../assets/project1.jpg'
+import project2 from '../../assets/greenwoodmedwoos.png'
 import project3 from '../../assets/project3.png'
 import project4 from '../../assets/home1.avif'
 import farm4 from '../../assets/home2.avif'
@@ -49,7 +49,7 @@ function Projectswrapper() {
                                             </div>
                                             <img src={project1} />
                                         </div>
-                                        <h3>PRERANA GREENS</h3>
+                                        <h3>Prerana Greens</h3>
                                         <div className="heading">
                                             <p>We have a just added a lot more space into your life.Here's PRERANA INNOVATION DEVELOPERS.</p>
                                         </div>
@@ -59,14 +59,14 @@ function Projectswrapper() {
                                     </a>
                                 </div>
                                 <div className="slide">
-                                    <a className="main-part" href='/projectdetails'>
+                                    <a className="main-part" href='#'>
                                         <div className="img">
                                             <div className="box">
                                                 <div></div>
                                             </div>
                                             <img src={project2} />
                                         </div>
-                                        <h3>GREENWOOD MEADOWS</h3>
+                                        <h3>Greenwood Meadows</h3>
                                         <div className="heading">
                                             <p>D.C.Converted residential sites in fully developed plotted layout in Maragondanahalli,  </p>
                                         </div>
@@ -142,43 +142,43 @@ function Projectswrapper() {
             </section>
 
             <section className='aboutus my-5'>
-            <Container size={1350}>
-                <Grid mt={100}>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
-                        <Carousel
-                            withIndicators
-                            height={350}
-                            loop
-                            withControls={false}
-                            plugins={[autoplay.current]}
-                            onMouseEnter={autoplay.current.stop}
-                            onMouseLeave={autoplay.current.reset}
-                        >
-                            <Carousel.Slide>
-                                <img src={farm4} height="100%" width="100%" alt='' />
-                            </Carousel.Slide>
-                            <Carousel.Slide>
-                                <img src={home3} height="100%" width="100%" alt='' />
-                            </Carousel.Slide>
-                            <Carousel.Slide>
-                                <img src={home4} height="100%" width="100%" alt='' />
-                            </Carousel.Slide>
-                            <Carousel.Slide>
-                                <img src={home5} height="100%" width="100%" alt='' />
-                            </Carousel.Slide>
-                        </Carousel>
-                    </Grid.Col>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
-                        <Stack px={25}>
-                            <Text style={{ fontSize: "30px" }} ta="center" fw={700}>About Us</Text>
-                            <Text size='lg'>
-                                DSR VENTURES was established in 2011, with Land Development and apartment construction as its main focus, we strive to build superior apartments for our customers with the highest level of quality construction services at fair and market competitive prices.
+                <Container size={1350}>
+                    <Grid mt={100}>
+                        <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
+                            <Carousel
+                                withIndicators
+                                height={350}
+                                loop
+                                withControls={false}
+                                plugins={[autoplay.current]}
+                                onMouseEnter={autoplay.current.stop}
+                                onMouseLeave={autoplay.current.reset}
+                            >
+                                <Carousel.Slide>
+                                    <img src={farm4} height="100%" width="100%" alt='' />
+                                </Carousel.Slide>
+                                <Carousel.Slide>
+                                    <img src={home3} height="100%" width="100%" alt='' />
+                                </Carousel.Slide>
+                                <Carousel.Slide>
+                                    <img src={home4} height="100%" width="100%" alt='' />
+                                </Carousel.Slide>
+                                <Carousel.Slide>
+                                    <img src={home5} height="100%" width="100%" alt='' />
+                                </Carousel.Slide>
+                            </Carousel>
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
+                            <Stack px={25}>
+                                <Text style={{ fontSize: "30px" }} ta="center" fw={700}>About Us</Text>
+                                <Text size='lg'>
+                                    DSR VENTURES was established in 2011, with Land Development and apartment construction as its main focus, we strive to build superior apartments for our customers with the highest level of quality construction services at fair and market competitive prices.
 
-                                We research, analyze, and determine the best cost-effective and regulatory design to suit our customer needs.</Text>
+                                    We research, analyze, and determine the best cost-effective and regulatory design to suit our customer needs.</Text>
 
-                        </Stack>
-                    </Grid.Col>
-                </Grid>
+                            </Stack>
+                        </Grid.Col>
+                    </Grid>
                 </Container>
             </section>
             <Enquireyform />

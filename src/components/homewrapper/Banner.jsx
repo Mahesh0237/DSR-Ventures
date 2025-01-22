@@ -36,15 +36,10 @@ function Banner() {
         <Stack>
             <div style={{ height: updateheight, display: 'flex', marginTop:"80px" }}>
                 <Carousel
-                    withControls={false}
+                    // withControls={false}
                     withIndicators
                     height="100%"
-                    dragFree
-
                     style={{ flex: 1 }}
-                    plugins={[autoplay.current]}
-                    onMouseEnter={autoplay.current.stop}
-                    onMouseLeave={autoplay.current.reset}
                 >
                     <Carousel.Slide>
                         <div style={{ width: '100%', height: '100%' }}>

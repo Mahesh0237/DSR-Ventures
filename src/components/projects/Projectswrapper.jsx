@@ -5,14 +5,14 @@ import projectslide2 from '../../assets/projectslide2.jpg'
 import projectslide3 from '../../assets/projectslide3.jpg'
 import Autoplay from 'embla-carousel-autoplay';
 import { useViewportSize } from '@mantine/hooks'
-import { Button, Card, Container, Group, Image, Text } from '@mantine/core'
+import { Button, Card, Container, Grid, Group, Image, Text } from '@mantine/core'
 import Enquireyform from './../homewrapper/shared/Enquireyform'
 import Projectdetail from './projectdetail'
 import slider11 from '../../assets/slider11.jpeg'
 import slider14 from '../../assets/slider14.jpeg'
-import project1 from '../../assets/project11.jpeg'
-import project2 from '../../assets/project22.jpeg'
-import project3 from '../../assets/project33.jpeg'
+import project1 from '../../assets/project1.jpg'
+import project2 from '../../assets/greenwoodmedwoos.png'
+import project3 from '../../assets/green-avenues.jpg'
 function Projectwrapper() {
     const autoplay = useRef(Autoplay({ delay: 2000 }));
     const { height, width } = useViewportSize();
@@ -32,7 +32,60 @@ function Projectwrapper() {
         <main className="listings-page margin-top-page">
             <Container size={1600} >
                 <Text ta="center" fw={700} my={30} style={{ fontSize: "30px" }}>Projects</Text>
-                <div style={{ height: updateheight, display: 'flex' }}>
+                <Grid>
+                    <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                        <Card shadow="sm" padding="lg" radius="md" withBorder>
+                            <Card.Section>
+                                <Image
+                                    src={project1}
+                                    height={260}
+                                    alt="Norway"
+                                />
+                            </Card.Section>
+                            <Group justify="space-between" mt="md" >
+                                <Text fw={700} style={{ fontSize: "20px" }} ta="center">PRERANA GREENS</Text>
+
+                            </Group>
+                            <Text ta="justify" py={20}>We have a just added a lot more space into your life.Here's PRERANA INNOVATION DEVELOPERS.</Text>
+                            <Button variant="filled" color='teal' size='md' component='a' href='/projectdetails'>View details</Button>
+                        </Card>
+                    </Grid.Col>
+                    <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                    <Card shadow="sm" padding="lg" radius="md" withBorder>
+                                <Card.Section>
+                                    <Image
+                                        src={project2}
+                                        height={260}
+                                        alt="Norway"
+                                    />
+                                </Card.Section>
+                                <Group justify="space-between" mt="md" >
+                                    <Text fw={700} style={{ fontSize: "20px" }} ta="center">GREENWOOD MEADOWS</Text>
+
+                                </Group>
+                                <Text ta="justify" py={20}>D.C.Converted residential sites in fully developed plotted layout in Maragondanahalli,</Text>
+                                <Button variant="filled" color='teal' size='md' component='a' href='#'>View details</Button>
+                            </Card>
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                        <Card shadow="sm" padding="lg" radius="md" withBorder>
+                                <Card.Section>
+                                    <Image
+                                        src={project3}
+                                        height={260}
+                                        alt="Norway"
+                                    />
+                                </Card.Section>
+                                <Group justify="space-between" mt="md" >
+                                    <Text fw={700} style={{ fontSize: "20px" }} ta="center">Green Avenues</Text>
+
+                                </Group>
+                                <Text ta="justify" py={20}>Green Avenues residential sites in fully developed plotted layout in Ramsandra village Narsapura.</Text>
+                                <Button variant="filled" color='teal' size='md' component='a' href='/greenavenuesdetails'>View Details</Button>
+                            </Card>
+                        </Grid.Col>
+                </Grid>
+                {/* <div style={{ height: updateheight, display: 'flex' }}>
                     <Carousel
                         withControls={false}
                         withIndicators
@@ -77,7 +130,7 @@ function Projectwrapper() {
 
                                 </Group>
                                 <Text ta="justify" py={20}>D.C.Converted residential sites in fully developed plotted layout in Maragondanahalli,</Text>
-                                <Button variant="filled" color='teal' size='md' component='a' href='/projectdetails'>View details</Button>
+                                <Button variant="filled" color='teal' size='md' component='a' href='#'>View details</Button>
                             </Card>
                         </Carousel.Slide>
                         <Carousel.Slide>
@@ -94,11 +147,11 @@ function Projectwrapper() {
 
                                 </Group>
                                 <Text ta="justify" py={20}>Green Avenues residential sites in fully developed plotted layout in Ramsandra village Narsapura.</Text>
-                                <Button variant="filled" color='teal' size='md' component='a' href='/projectdetails'>View Details</Button>
+                                <Button variant="filled" color='teal' size='md' component='a' href='/greenavenuesdetails'>View Details</Button>
                             </Card>
                         </Carousel.Slide>
                     </Carousel>
-                </div>
+                </div> */}
 
                 <Projectdetail
                     img={slider11}

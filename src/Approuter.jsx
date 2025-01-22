@@ -8,6 +8,7 @@ import Projectdetailspage from './pages/Projectdetailspage'
 import Satvikprojectsetails from './pages/Satvikprojectsetails'
 import Satvikfurtuneprojectpage from './pages/Satvikfurtuneprojectpage'
 import Preranagreensprojectpage from './pages/Preranagreensprojectpage'
+import Greenavenuesprojectpage from './pages/Greenavenuesprojectpage'
 function Approuter() {
     return (
         <BrowserRouter>
@@ -19,6 +20,7 @@ function Approuter() {
                 <Route path='/projectdetails' element={<Projectdetailspage />} />
                 <Route path='/satvikprojectdetails' element={<Satvikfurtuneprojectpage />} />
                 <Route path='/preranagreensdetails' element={<Preranagreensprojectpage />} />
+                <Route path='/greenavenuesdetails' element={<Greenavenuesprojectpage />} />
             </Routes>
         </BrowserRouter>
     )

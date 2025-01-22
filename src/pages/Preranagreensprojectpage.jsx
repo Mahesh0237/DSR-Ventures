@@ -2,7 +2,7 @@ import React from 'react'
 import Projectheader from '../components/newprojectwrapper/Projectheader'
 import { Button, Container, Grid, Group, Image, List, Stack, Text } from '@mantine/core'
 import Projectcontactform from '../components/newprojectwrapper/Projectcontactform'
-import Satvik_Fortune from '../assets/brochure/Satvi_fortune_brochure.pdf'
+import prerana_greens_brochure from '../assets/brochure/prerana_greens_brochure.pdf'
 import { IconDownload } from '@tabler/icons-react'
 import dsrgallery1 from '../assets/dsr_gallery1.jpeg'
 import dsrgallery2 from '../assets/dsr_gallery2.jpeg'
@@ -56,13 +56,13 @@ function Preranagreensprojectpage() {
                                 onMouseLeave={autoplay.current.reset}
                             >
                                 <Carousel.Slide>
-                                    <img src={Dsr_fortune_city} width="100%" height="100%" />
+                                    <img src={projectslide1} width="100%" height="100%" />
                                 </Carousel.Slide>
                                 <Carousel.Slide>
-                                    <img src={dsrgallery1} width="100%" height="100%" />
+                                    <img src={projectslide2} width="100%" height="100%" />
                                 </Carousel.Slide>
                                 <Carousel.Slide>
-                                    <img src={dsr_location} width="100%" height="100%" />
+                                    <img src={projectslide3} width="100%" height="100%" />
                                 </Carousel.Slide>
                             </Carousel>
                         </div>
@@ -70,15 +70,15 @@ function Preranagreensprojectpage() {
                 </Grid.Col>
                 <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
                     <Projectcontactform
-                        pdf=""
-                        project_name="DSR Satvik Fortune City"
+                        pdf={prerana_greens_brochure}
+                        project_name="Prerana Greens Brochure"
                     />
                 </Grid.Col>
             </Grid>
             <Container size={1400}>
                 <Grid my={50}>
                     <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
-                        <Image src={Dsr_fortune_city} alt='img' height={300} />
+                        <Image src={projectslide2} alt='img' height={300} />
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
                         <Stack>
@@ -89,11 +89,22 @@ function Preranagreensprojectpage() {
                                 We do nor forget about our planet that has permited us to live on it.Thus.our layout are ECO friendly causing least burden on the Natural resourses.In short, we take responsibility to create benchmarks with high customer satisfaction.Our aim is to add value to our esteemed customers invesments which grows exceptionally.
                             </Text>
                             <Group>
-                                <Button leftSection={<IconDownload size={18} />} size='md' component='a' href={Satvik_Fortune} download="Satvik_Fortune">Download Brochure</Button>
+                                <Button leftSection={<IconDownload size={18} />} size='md' component='a' href={prerana_greens_brochure} download="prerana_greens_brochure">Download Brochure</Button>
                             </Group>
                         </Stack>
                     </Grid.Col>
                 </Grid>
+                <div className='my-5'>
+                    <Text fw={700} style={{ fontSize: "25px" }} pb={20}>Why Prerana Greens</Text>
+                    <List spacing={10}>
+                        <List.Item>Hoskote being developed as Satellite Township and Infrastructure Corridor spreading 6,000 acres</List.Item>
+                        <List.Item>Project approved by HPA and all leading banks</List.Item>
+                        <List.Item>Few minutes drive from Whitefield & KR Puram, closer to Airport</List.Item>
+                        <List.Item>Home to VOLVO, Bando & Honda, Mahindra & Mahindra Aero space 1,500 acres Auto Hub coming up in Narsapura near Neo-Bangalore</List.Item>
+                        <List.Item>468 Japanese companies have units on the Bangalore-Chennai belt</List.Item>
+                        <List.Item>284 Km STRR connecting Hoskote; 6 lane Bangalore-Chennai expressway</List.Item>
+                    </List>
+                </div>
                 <div className='my-5'>
                     <Text fw={700} style={{ fontSize: "25px" }} pb={20}>World-Class Amenities:</Text>
                     <List spacing={10}>
