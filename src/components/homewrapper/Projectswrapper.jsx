@@ -5,6 +5,7 @@ import project1 from '../../assets/project1.jpg'
 import project2 from '../../assets/greenwoodmedwoos.png'
 import project3 from '../../assets/project3.png'
 import project4 from '../../assets/home1.avif'
+import project5 from '../../assets/satvikamogaplot.png'
 import farm4 from '../../assets/home2.avif'
 import home3 from '../../assets/home3.avif'
 import home4 from '../../assets/home4.avif'
@@ -26,6 +27,21 @@ function Projectswrapper() {
                         </div>
                         <div className="latest-listings-slider">
                             <Group justify="center">
+                                <div className="slide">
+                                    <a className="main-part" href='/satvikamogaplots'>
+                                        <div className="img">
+                                            <div className="box">
+                                                <div></div>
+                                            </div>
+                                            <img src={project5} />
+                                        </div>
+                                        <h3>Satvik Amoga Plots</h3>
+                                        <div className="heading">
+                                            <p>Bangalore is fast developing into a world class city with stateof-the art infrastructure. </p>
+                                        </div>
+                                        <div className="link">View More</div>
+                                    </a>
+                                </div>
                                 <div className="slide">
                                     <a className="main-part" href='/satvikprojectdetails'>
                                         <div className="img">
@@ -58,7 +74,7 @@ function Projectswrapper() {
                                         </div>
                                     </a>
                                 </div>
-                                <div className="slide">
+                                {/* <div className="slide">
                                     <a className="main-part" href='#'>
                                         <div className="img">
                                             <div className="box">
@@ -72,7 +88,7 @@ function Projectswrapper() {
                                         </div>
                                         <div className="link">View More</div>
                                     </a>
-                                </div>
+                                </div> */}
                             </Group>
                         </div>
                     </div>
