@@ -1,4 +1,4 @@
-import { Container, Grid, Group, Stack, Text } from '@mantine/core'
+import { Container, Grid, Group, Image, Stack, Text } from '@mantine/core'
 import React, { useRef } from 'react'
 import Projectshared from './shared/Projectshared'
 import project1 from '../../assets/project1.jpg'
@@ -10,6 +10,8 @@ import farm4 from '../../assets/home2.avif'
 import home3 from '../../assets/home3.avif'
 import home4 from '../../assets/home4.avif'
 import home5 from '../../assets/home5.avif'
+import comingsoon from '../../assets/comingsoon.jpg'
+import homepagedesign from '../../assets/homepagedesign.jpeg'
 import explore from '../../assets/explore.jpg'
 import Enquireyform from './shared/Enquireyform'
 import { Carousel } from '@mantine/carousel'
@@ -23,25 +25,10 @@ function Projectswrapper() {
                 <div className="section-wrapper">
                     <div className="latest-listings-wrapper">
                         <div className="section-heading">
-                            <h2>Projects</h2>
+                            <h2>Our Latest Projects</h2>
                         </div>
                         <div className="latest-listings-slider">
                             <Group justify="center">
-                                <div className="slide">
-                                    <a className="main-part" href='/satvikamogaplots'>
-                                        <div className="img">
-                                            <div className="box">
-                                                <div></div>
-                                            </div>
-                                            <img src={project5} />
-                                        </div>
-                                        <h3>Satvik Amoga Plots</h3>
-                                        <div className="heading">
-                                            <p>Bangalore is fast developing into a world class city with stateof-the art infrastructure. </p>
-                                        </div>
-                                        <div className="link">View More</div>
-                                    </a>
-                                </div>
                                 <div className="slide">
                                     <a className="main-part" href='/satvikprojectdetails'>
                                         <div className="img">
@@ -50,7 +37,7 @@ function Projectswrapper() {
                                             </div>
                                             <img src={project3} />
                                         </div>
-                                        <h3>Satvik Fortune</h3>
+                                        <h3>Sathvik Fortune City</h3>
                                         <div className="heading">
                                             <p>DSR Sathvik Fortune City is a prestigious, BMRDA-approved residential layout located in Bangalore.</p>
                                         </div>
@@ -58,16 +45,31 @@ function Projectswrapper() {
                                     </a>
                                 </div>
                                 <div className="slide">
-                                    <a className="main-part" href='/preranagreensdetails'>
+                                    <a className="main-part" href='/satvikamogaplots'>
                                         <div className="img">
                                             <div className="box">
                                                 <div></div>
                                             </div>
-                                            <img src={project1} />
+                                            <img src={project5} />
                                         </div>
-                                        <h3>Prerana Greens</h3>
+                                        <h3>Sathvik Amogha Plots</h3>
                                         <div className="heading">
-                                            <p>We have a just added a lot more space into your life.Here's PRERANA INNOVATION DEVELOPERS.</p>
+                                            <p>Bangalore is fast developing into a world class city with stateof-the art infrastructure. </p>
+                                        </div>
+                                        <div className="link">View More</div>
+                                    </a>
+                                </div>
+                                <div className="slide">
+                                    <a className="main-part" href='#'>
+                                        <div className="img">
+                                            <div className="box">
+                                                <div></div>
+                                            </div>
+                                            <img src={comingsoon} />
+                                        </div>
+                                        <h3>Sathvik Fortune Sqaure</h3>
+                                        <div className="heading">
+                                            <p>Experience a perfect blend of modern architecture, comfort, and convenience at Sathvik Fortune Square.</p>
                                         </div>
                                         <div className="link">
                                             View More
@@ -101,17 +103,20 @@ function Projectswrapper() {
                         <div className="testimonial-slide-inner">
                             {/* <div className="grey-box" ></div> */}
                             <div className="image-part" >
-                                <img src={project4} alt='img' />
+                                <Image
+                                 src={homepagedesign} 
+                                 alt='img'
+                                 />
                             </div>
                             <div className="content-part">
                                 <h2 className="heading-h2">
                                     <p>Driven by Design</p>
                                 </h2>
                                 <div className="heading-p-wrapper mobile-hide">
-                                    <p>Passionate about Design - Meticulous Craftsmanship, Aesthetics, and Functionality Unite in Every Creation. Architectural Brilliance Personified.</p>
+                                    <p>Driven by a passion for design, every creation is a seamless fusion of meticulous craftsmanship, aesthetic beauty, and functional innovation. Each project is thoughtfully crafted to not only captivate the eye but also to serve a practical purpose, ensuring that every detail works in harmony to create architectural brilliance. With a commitment to precision and artistry, we transform ideas into structures that are as functional as they are beautiful, reflecting a timeless approach to design excellence."</p>
                                 </div>
                                 <div className="heading-p-wrapper desktop-hide">
-                                    <p>Passionate about Design - Meticulous Craftsmanship, Aesthetics, and Functionality Unite in Every Creation. Architectural Brilliance Personified.</p>
+                                    <p>Driven by a passion for design, every creation is a seamless fusion of meticulous craftsmanship, aesthetic beauty, and functional innovation. Each project is thoughtfully crafted to not only captivate the eye but also to serve a practical purpose, ensuring that every detail works in harmony to create architectural brilliance. With a commitment to precision and artistry, we transform ideas into structures that are as functional as they are beautiful, reflecting a timeless approach to design excellence."</p>
                                 </div>
                             </div>
                         </div>

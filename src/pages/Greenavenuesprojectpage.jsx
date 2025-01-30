@@ -92,7 +92,7 @@ function Greenavenuesprojectpage() {
                             </Text>
                             <Text>We have just added a lot more space into your life. Here’s DSR ventures introducing DSR Green Avenues, for people who are looking for quality & luxury life. We do not forget about our planet that has permitted us to live on it. Thus, our layouts are ECO friendly causing least burden on the natural resources. In short, we take responsibility to create benchmarks with high customer satisfaction. Our aim is to add value to our esteemed customer's investment which grows exceptionally.</Text>
                             <Group>
-                                <Button leftSection={<IconDownload size={18} />} size='md' component='a' href={green_avenues_brochure} download="green_avenues_brochure">Download Brochure</Button>
+                                <Button color='#0b9444' leftSection={<IconDownload size={18} />} size='md' component='a' href={green_avenues_brochure} download="green_avenues_brochure">Download Brochure</Button>
                             </Group>
                         </Stack>
                     </Grid.Col>

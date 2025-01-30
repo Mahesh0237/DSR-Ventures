@@ -89,7 +89,7 @@ function Preranagreensprojectpage() {
                                 We do nor forget about our planet that has permited us to live on it.Thus.our layout are ECO friendly causing least burden on the Natural resourses.In short, we take responsibility to create benchmarks with high customer satisfaction.Our aim is to add value to our esteemed customers invesments which grows exceptionally.
                             </Text>
                             <Group>
-                                <Button leftSection={<IconDownload size={18} />} size='md' component='a' href={prerana_greens_brochure} download="prerana_greens_brochure">Download Brochure</Button>
+                                <Button color='#0b9444' leftSection={<IconDownload size={18} />} size='md' component='a' href={prerana_greens_brochure} download="prerana_greens_brochure">Download Brochure</Button>
                             </Group>
                         </Stack>
                     </Grid.Col>

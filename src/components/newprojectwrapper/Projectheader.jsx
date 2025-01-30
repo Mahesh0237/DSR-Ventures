@@ -13,8 +13,8 @@ function Projectheader() {
                             <img src={logo} width="120px" height="50px" />
                         </a>
                     </div>
-                    <Group grow justify='flex-end' ml={20}>
-                        <Button leftSection={<IconPhoneCall size={18} />} component='a' href='tel:9071288899' size='xs'>Call</Button>
+                    <Group grow justify='flex-end'>
+                        <Button leftSection={<IconPhoneCall size={18} />} component='a' href='tel:9071288899' size='xs' color='#0b9444'>Call</Button>
                         <Button leftSection={<IconBrandWhatsapp size={18} />} color='dark' size='xs' component='a' href='https://wa.me/9071288899' target="_blank">WhatsUp</Button>
                     </Group>
                 </div>

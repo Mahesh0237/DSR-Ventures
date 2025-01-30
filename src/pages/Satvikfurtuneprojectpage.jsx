@@ -87,7 +87,7 @@ function Satvikfurtuneprojectpage() {
                                 from, DSR Fortune City caters to both investors and families looking to build their dream homes.
                             </Text>
                             <Group>
-                                <Button leftSection={<IconDownload size={18} />} size='md' component='a' href={Satvik_Fortune} download="Satvik_Fortune">Download Brochure</Button>
+                                <Button color='#0b9444' leftSection={<IconDownload size={18} />} size='md' component='a' href={Satvik_Fortune} download="Satvik_Fortune">Download Brochure</Button>
                             </Group>
                         </Stack>
                     </Grid.Col>

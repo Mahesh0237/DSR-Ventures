@@ -138,11 +138,11 @@ function Projectcontactform({ pdf, project_name }) {
                                 value={project_name}
                             />
                             <Checkbox label="Agree to our Disclaimer and Terms and Conditions." size='xs' />
-                            <Button fullWidth size='md' color='dark' onClick={handleSubmit}>Pre Register Here</Button>
+                            <Button fullWidth size='md' color='#0b9444' onClick={handleSubmit}>Pre Register Here</Button>
                             <Divider label="OR" labelPosition="center" size="md" />
                             <Text fw={500} size='lg' ta="center">Call Us: +91-9071288899</Text>
                             <Text ta="center">For more information</Text>
-                            <Button leftSection={<IconDownload size={18} />} size='md' variant='outline' color='yellow' component='a' href={pdf} download="Brochure">Download Brochure</Button>
+                            <Button leftSection={<IconDownload size={18} />} size='md' variant='outline' color='#0b9444' component='a' href={pdf} download="Brochure">Download Brochure</Button>
                         </Stack>
                     </Card.Section>
                     <LoadingOverlay visible={isLoadingEffect} />

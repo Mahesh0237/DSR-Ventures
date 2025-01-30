@@ -4,11 +4,11 @@ import { Button, Container, Grid, Group, Image, List, Stack, Text } from '@manti
 import Projectcontactform from '../components/newprojectwrapper/Projectcontactform'
 import Satvik_amogaplot from '../assets/brochure/Sathvik_Amogha_Plots_Brochure.pdf'
 import { IconDownload } from '@tabler/icons-react'
-import dsrgallery1 from '../assets/dsr_gallery1.jpeg'
-import dsrgallery2 from '../assets/dsr_gallery2.jpeg'
-import dsrgallery3 from '../assets/dsr_gallery3.jpeg'
-import dsrgallery4 from '../assets/dsr_gallery4.jpeg'
 import satvikamogaplot from '../assets/satvikamogaplot.png'
+import sathvikamogha1 from '../assets/sathvikamogha1.jpeg'
+import sathvikamogha2 from '../assets/sathvikamogha2.jpeg'
+import sathvikamogha3 from '../assets/sathvikamogha3.jpeg'
+import sathvikamogha4 from '../assets/sathvikamogha4.jpeg'
 import Footer from '../components/shared/Footer'
 import { useRef } from 'react';
 import Autoplay from 'embla-carousel-autoplay';
@@ -42,10 +42,8 @@ function Satvikamogaplotspage() {
 
                         <div style={{ height: updateheight, display: 'flex' }}>
                             <Carousel
-                                withControls={false}
                                 withIndicators
                                 height="100%"
-                                dragFree
                                 loop
                                 style={{ flex: 1 }}
                                 plugins={[autoplay.current]}
@@ -53,14 +51,17 @@ function Satvikamogaplotspage() {
                                 onMouseLeave={autoplay.current.reset}
                             >
                                 <Carousel.Slide>
-                                    <img src={satvikamogaplot} width="100%" height="100%" />
-                                </Carousel.Slide>
-                                {/* <Carousel.Slide>
-                                    <img src={dsrgallery1} width="100%" height="100%" />
+                                    <img src={sathvikamogha1} width="100%" height="100%" />
                                 </Carousel.Slide>
                                 <Carousel.Slide>
-                                    <img src={dsr_location} width="100%" height="100%" />
-                                </Carousel.Slide> */}
+                                    <img src={sathvikamogha2} width="100%" height="100%" />
+                                </Carousel.Slide>
+                                <Carousel.Slide>
+                                    <img src={sathvikamogha3} width="100%" height="100%" />
+                                </Carousel.Slide>
+                                <Carousel.Slide>
+                                    <img src={sathvikamogha4} width="100%" height="100%" />
+                                </Carousel.Slide>
                             </Carousel>
                         </div>
                     </div>
@@ -103,7 +104,7 @@ function Satvikamogaplotspage() {
                                 Junction
                             </Text>
                             <Group>
-                                <Button leftSection={<IconDownload size={18} />} size='md' component='a' href={Satvik_amogaplot} download="Satvik_amogaplot">Download Brochure</Button>
+                                <Button color='#0b9444' leftSection={<IconDownload size={18} />} size='md' component='a' href={Satvik_amogaplot} download="Satvik_amogaplot">Download Brochure</Button>
                             </Group>
                         </Stack>
                     </Grid.Col>

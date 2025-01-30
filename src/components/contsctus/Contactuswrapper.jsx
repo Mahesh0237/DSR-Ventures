@@ -1,7 +1,7 @@
 import React from 'react'
 import Enquireyform from '../homewrapper/shared/Enquireyform'
-import contactus from '../../assets/contactus.avif'
-import { Button, Container, Grid, Stack } from '@mantine/core'
+import contactus from '../../assets/contactuspage.jpeg'
+import { Button, Container, Grid, Image, Stack } from '@mantine/core'
 function Contactuswrapper() {
     return (
         <>
@@ -9,7 +9,12 @@ function Contactuswrapper() {
                 <Container size={1600} my={50}>
                     <Grid style={{marginTop:"200px"}}>
                         <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
-                            <img src={contactus} alt='img' />
+                            <Image
+                             src={contactus}
+                              alt='img' 
+                              height={400}
+                              width={300}
+                              />
                         </Grid.Col>
                         <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
                             <div className="form-part">
