@@ -10,10 +10,12 @@ import Enquireyform from './../homewrapper/shared/Enquireyform'
 import Projectdetail from './projectdetail'
 import slider11 from '../../assets/slider11.jpeg'
 import slider14 from '../../assets/slider14.jpeg'
+import project0 from '../../assets/project3.png'
 import project1 from '../../assets/project1.jpg'
 import project2 from '../../assets/greenwoodmedwoos.png'
 import project3 from '../../assets/green-avenues.jpg'
 import project4 from '../../assets/satvikamogaplot.png'
+import Sathvikavenue1 from '../../assets/Sathvikavenue1.jpeg'
 function Projectwrapper() {
     const autoplay = useRef(Autoplay({ delay: 2000 }));
     const { height, width } = useViewportSize();
@@ -38,14 +40,32 @@ function Projectwrapper() {
                         <Card shadow="sm" padding="lg" radius="md" withBorder>
                             <Card.Section>
                                 <Image
-                                    src={project4}
+                                    src={project0}
                                     height={260}
                                     alt="Norway"
-                                    style={{objectFit:"fill"}}
+                                    style={{ objectFit: "fill" }}
                                 />
                             </Card.Section>
                             <Group justify="space-between" mt="md" >
-                                <Text fw={700} style={{ fontSize: "20px" }} ta="center">Satvik Amoga Plots</Text>
+                                <Text fw={700} style={{ fontSize: "20px" }} ta="center">Sathvik Fortune City</Text>
+
+                            </Group>
+                            <Text ta="justify" py={20}>DSR Fortune City is a prestigious, BMRDA-approved residential layout located in the thriving suburb of Hoskote, Bangalore.</Text>
+                            <Button variant="filled" color='#0b9444' size='md' component='a' href='/satvikprojectdetails'>View Details</Button>
+                        </Card>
+                    </Grid.Col>
+                    <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                        <Card shadow="sm" padding="lg" radius="md" withBorder>
+                            <Card.Section>
+                                <Image
+                                    src={project4}
+                                    height={260}
+                                    alt="Norway"
+                                    style={{ objectFit: "fill" }}
+                                />
+                            </Card.Section>
+                            <Group justify="space-between" mt="md" >
+                                <Text fw={700} style={{ fontSize: "20px" }} ta="center">Sathvik Amoga Plots</Text>
 
                             </Group>
                             <Text ta="justify" py={20}>Bangalore is fast developing into a world class city with stateof-the art infrastructure to meet the growing.</Text>
@@ -56,10 +76,28 @@ function Projectwrapper() {
                         <Card shadow="sm" padding="lg" radius="md" withBorder>
                             <Card.Section>
                                 <Image
+                                    src={Sathvikavenue1}
+                                    height={260}
+                                    alt="Norway"
+                                    style={{ objectFit: "fill" }}
+                                />
+                            </Card.Section>
+                            <Group justify="space-between" mt="md" >
+                                <Text fw={700} style={{ fontSize: "20px" }} ta="center">Sathvik Avenues</Text>
+
+                            </Group>
+                            <Text ta="justify" py={20}>Proximity to VIT University: Just adjacent to the upcoming 100-acre VIT University campus, promising future growth.</Text>
+                            <Button variant="filled" color='#0b9444' size='md' component='a' href='/sathvikavenue'>View Details</Button>
+                        </Card>
+                    </Grid.Col>
+                    <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                        <Card shadow="sm" padding="lg" radius="md" withBorder>
+                            <Card.Section>
+                                <Image
                                     src={project1}
                                     height={260}
                                     alt="Norway"
-                                    style={{objectFit:"fill"}}
+                                    style={{ objectFit: "fill" }}
                                 />
                             </Card.Section>
                             <Group justify="space-between" mt="md" >
@@ -77,7 +115,7 @@ function Projectwrapper() {
                                     src={project2}
                                     height={260}
                                     alt="Norway"
-                                    style={{objectFit:"fill"}}
+                                    style={{ objectFit: "fill" }}
                                 />
                             </Card.Section>
                             <Group justify="space-between" mt="md" >
@@ -95,7 +133,7 @@ function Projectwrapper() {
                                     src={project3}
                                     height={260}
                                     alt="Norway"
-                                    style={{objectFit:"fill"}}
+                                    style={{ objectFit: "fill" }}
                                 />
                             </Card.Section>
                             <Group justify="space-between" mt="md" >

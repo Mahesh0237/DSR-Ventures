@@ -16,6 +16,14 @@ import explore from '../../assets/explore.jpg'
 import Enquireyform from './shared/Enquireyform'
 import { Carousel } from '@mantine/carousel'
 import Autoplay from 'embla-carousel-autoplay';
+import bank1 from '../../assets/bank1.png'
+import bank2 from '../../assets/bank2.png'
+import bank3 from '../../assets/bank3.png'
+import bank4 from '../../assets/bank4.png'
+import bank5 from '../../assets/bank5.png'
+import bank6 from '../../assets/bank6.png'
+import bank7 from '../../assets/bank7.png'
+import bank8 from '../../assets/bank8.png'
 
 function Projectswrapper() {
     const autoplay = useRef(Autoplay({ delay: 2000 }));
@@ -104,19 +112,19 @@ function Projectswrapper() {
                             {/* <div className="grey-box" ></div> */}
                             <div className="image-part" >
                                 <Image
-                                 src={homepagedesign} 
-                                 alt='img'
-                                 />
+                                    src={homepagedesign}
+                                    alt='img'
+                                />
                             </div>
                             <div className="content-part">
                                 <h2 className="heading-h2">
                                     <p>Driven by Design</p>
                                 </h2>
                                 <div className="heading-p-wrapper mobile-hide">
-                                    <p>Driven by a passion for design, every creation is a seamless fusion of meticulous craftsmanship, aesthetic beauty, and functional innovation. Each project is thoughtfully crafted to not only captivate the eye but also to serve a practical purpose, ensuring that every detail works in harmony to create architectural brilliance. With a commitment to precision and artistry, we transform ideas into structures that are as functional as they are beautiful, reflecting a timeless approach to design excellence."</p>
+                                    <p>Driven by a passion for design, every creation is a seamless fusion of meticulous craftsmanship, aesthetic beauty, and functional innovation. Each project is thoughtfully crafted to not only captivate the eye but also to serve a practical purpose, ensuring that every detail works in harmony to create architectural brilliance. With a commitment to precision and artistry, we transform ideas into structures that are as functional as they are beautiful, reflecting a timeless approach to design excellence.</p>
                                 </div>
                                 <div className="heading-p-wrapper desktop-hide">
-                                    <p>Driven by a passion for design, every creation is a seamless fusion of meticulous craftsmanship, aesthetic beauty, and functional innovation. Each project is thoughtfully crafted to not only captivate the eye but also to serve a practical purpose, ensuring that every detail works in harmony to create architectural brilliance. With a commitment to precision and artistry, we transform ideas into structures that are as functional as they are beautiful, reflecting a timeless approach to design excellence."</p>
+                                    <p>Driven by a passion for design, every creation is a seamless fusion of meticulous craftsmanship, aesthetic beauty, and functional innovation. Each project is thoughtfully crafted to not only captivate the eye but also to serve a practical purpose, ensuring that every detail works in harmony to create architectural brilliance. With a commitment to precision and artistry, we transform ideas into structures that are as functional as they are beautiful, reflecting a timeless approach to design excellence.</p>
                                 </div>
                             </div>
                         </div>
@@ -200,6 +208,47 @@ function Projectswrapper() {
                             </Stack>
                         </Grid.Col>
                     </Grid>
+                </Container>
+            </section>
+            <section className='aboutus my-5'>
+                <Container size={1350}>
+                    <Text style={{ fontSize: "30px" }} mb={20} fw={700}>Financial Partners</Text>
+                    <Carousel
+                        withIndicators
+                        height={80}
+                        loop
+                        withControls={false}
+                        plugins={[autoplay.current]}
+                        onMouseEnter={autoplay.current.stop}
+                        onMouseLeave={autoplay.current.reset}
+                        slideSize="20%"
+                        slideGap="md"
+                    >
+                        <Carousel.Slide>
+                            <img src={bank1} height="100%" width="100%" alt='' />
+                        </Carousel.Slide>
+                        <Carousel.Slide>
+                            <img src={bank2} height="100%" width="100%" alt='' />
+                        </Carousel.Slide>
+                        <Carousel.Slide>
+                            <img src={bank3} height="100%" width="100%" alt='' />
+                        </Carousel.Slide>
+                        <Carousel.Slide>
+                            <img src={bank4} height="100%" width="100%" alt='' />
+                        </Carousel.Slide>
+                        <Carousel.Slide>
+                            <img src={bank5} height="100%" width="100%" alt='' />
+                        </Carousel.Slide>
+                        <Carousel.Slide>
+                            <img src={bank6} height="100%" width="100%" alt='' />
+                        </Carousel.Slide>
+                        <Carousel.Slide>
+                            <img src={bank7} height="100%" width="100%" alt='' />
+                        </Carousel.Slide>
+                        <Carousel.Slide>
+                            <img src={bank8} height="100%" width="100%" alt='' />
+                        </Carousel.Slide>
+                    </Carousel>
                 </Container>
             </section>
             <Enquireyform />

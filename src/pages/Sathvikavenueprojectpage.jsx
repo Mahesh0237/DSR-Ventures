@@ -4,10 +4,10 @@ import { Button, Container, Grid, Group, Image, List, Stack, Text } from '@manti
 import Projectcontactform from '../components/newprojectwrapper/Projectcontactform'
 import Satvik_Fortune from '../assets/brochure/Satvi_fortune_brochure.pdf'
 import { IconDownload } from '@tabler/icons-react'
-import dsrgallery1 from '../assets/dsr_gallery1.jpeg'
-import dsrgallery2 from '../assets/dsr_gallery2.jpeg'
-import dsrgallery3 from '../assets/dsr_gallery3.jpeg'
-import dsrgallery4 from '../assets/dsr_gallery4.jpeg'
+import Sathvikavenue1 from '../assets/Sathvikavenue1.jpeg'
+import Sathvikavenue2 from '../assets/Sathvikavenue2.jpeg'
+import Sathvikavenue3 from '../assets/Sathvikavenue3.jpeg'
+import Sathvikavenue4 from '../assets/Sathvikavenue4.jpeg'
 import Dsr_fortune_city from '../assets/dsr_satvik_fortune_city.jpeg'
 import Footer from '../components/shared/Footer'
 import { useRef } from 'react';
@@ -17,7 +17,7 @@ import { Carousel } from '@mantine/carousel';
 import dsr_rotuemap from '../assets/dsr_routemap.png'
 import dsr_location from '../assets/dsr_location.png'
 
-function Satvikfurtuneprojectpage() {
+function Sathvikavenueprojectpage() {
     const autoplay = useRef(Autoplay({ delay: 2000 }));
     const { height, width } = useViewportSize();
     let updateheight;
@@ -42,10 +42,9 @@ function Satvikfurtuneprojectpage() {
 
                         <div style={{ height: updateheight, display: 'flex' }}>
                             <Carousel
-                                withControls={false}
+                                // withControls={false}
                                 withIndicators
                                 height="100%"
-                                dragFree
                                 loop
                                 style={{ flex: 1 }}
                                 plugins={[autoplay.current]}
@@ -53,13 +52,13 @@ function Satvikfurtuneprojectpage() {
                                 onMouseLeave={autoplay.current.reset}
                             >
                                 <Carousel.Slide>
-                                    <img src={Dsr_fortune_city} width="100%" height="100%" />
+                                    <img src={Sathvikavenue1} width="100%" height="100%" />
                                 </Carousel.Slide>
                                 <Carousel.Slide>
-                                    <img src={dsrgallery1} width="100%" height="100%" />
+                                    <img src={Sathvikavenue2} width="100%" height="100%" />
                                 </Carousel.Slide>
                                 <Carousel.Slide>
-                                    <img src={dsr_location} width="100%" height="100%" />
+                                    <img src={Sathvikavenue3} width="100%" height="100%" />
                                 </Carousel.Slide>
                             </Carousel>
                         </div>
@@ -75,16 +74,18 @@ function Satvikfurtuneprojectpage() {
             <Container size={1400}>
                 <Grid my={50}>
                     <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
-                        <Image src={Dsr_fortune_city} alt='img' height={300} />
+                        <Image src={Sathvikavenue1} alt='img' height={300}
+                            style={{ objectFit: "fill" }}
+                        />
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
                         <Stack>
-                            <Text ta="center" fw={700} style={{ fontSize: "24px" }}>Sathvik Fortune City</Text>
+                            <Text ta="center" fw={700} style={{ fontSize: "24px" }}>Sathvik Avenue</Text>
                             <Text>
-                                DSR Fortune City is a prestigious, BMRDA-approved residential layout located in the thriving suburb of Hoskote,
-                                Bangalore. Spread over a vast expanse, this well-planned township offers a perfect blend of urban connectivity
-                                and serene living, designed to meet the aspirations of modern homebuyers. With an array of plot sizes to choose
-                                from, DSR Fortune City caters to both investors and families looking to build their dream homes.
+                                Prime Location: Strategically located right on the National Highway, offering seamless connectivity.
+                                Proximity to VIT University: Just adjacent to the upcoming 100-acre VIT University campus, promising future growth and value appreciation.
+                                Eco-Friendly Development: Emphasis on sustainable and green living spaces. Modern Infrastructure: Wide roads, landscaped gardens, and top-tier civic amenities. 24/7 Security: Gated community with advanced security systems for your peace of mind.
+                                Location Advantage:Bang on National Highway (NH-75): Ensures easy access to all parts of Bangalore and beyond.
                             </Text>
                             <Group>
                                 <Button color='#0b9444' leftSection={<IconDownload size={18} />} size='md' component='a' href={Satvik_Fortune} download="Satvik_Fortune">Download Brochure</Button>
@@ -95,7 +96,6 @@ function Satvikfurtuneprojectpage() {
                 <div className='my-5'>
                     <Text fw={700} style={{ fontSize: "25px" }} py={30}>Project Highlights</Text>
                     <List spacing={10}>
-                        <List.Item><Text fw={700} component='span'>BMRDA-Approved Layout:</Text> Assured regulatory compliance, ensuring a secure investment.</List.Item>
                         <List.Item><Text fw={700} component='span'>Prime Location:</Text> Strategically located right on the National Highway, offering seamless connectivity.</List.Item>
                         <List.Item><Text fw={700} component='span'>Proximity to VIT University:</Text> Just adjacent to the upcoming 100-acre VIT University campus, promising future growth and value appreciation.</List.Item>
                         <List.Item><Text fw={700} component='span'>Eco-Friendly Development:</Text> Emphasis on sustainable and green living spaces.
@@ -109,7 +109,7 @@ function Satvikfurtuneprojectpage() {
                         <List.Item><Text fw={700} component='span'>Recreation & Lifestyle:</Text> Shopping malls, entertainment centers, and restaurants are just a short drive away.  </List.Item>
                     </List>
                 </div>
-                <div className='my-5'>
+                {/* <div className='my-5'>
                     <Text fw={700} style={{ fontSize: "25px" }} pb={30}>Why Invest in DSR Fortune City?</Text>
                     <Text>
                         Future Appreciation: The development of the VIT University campus is poised to create immense demand for residential and rental properties in the vicinity.
@@ -117,7 +117,7 @@ function Satvikfurtuneprojectpage() {
                         High Growth Corridor: Hoskote is one of Bangalore’s most rapidly developing zones, with infrastructural advancements and numerous upcoming commercial projects.
                         Serene Living Environment: Enjoy the tranquility of suburban living with lush green surroundings and world-class amenities, all within a stone’s throw from urban conveniences.</Text>
 
-                </div>
+                </div> */}
                 <div className='my-5'>
                     <Text fw={700} style={{ fontSize: "25px" }} pb={20}>World-Class Amenities:</Text>
                     <List spacing={10}>
@@ -143,13 +143,13 @@ function Satvikfurtuneprojectpage() {
                     <Text fw={700} style={{ fontSize: "30px" }} pb={20}>Gallery</Text>
                     <Grid>
                         <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dsrgallery2} alt='img' height={300} />
+                            <Image src={Sathvikavenue1} alt='img' height={300} />
                         </Grid.Col>
                         <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dsrgallery3} alt='img' height={300} />
+                            <Image src={Sathvikavenue2} alt='img' height={300} />
                         </Grid.Col>
                         <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dsrgallery4} alt='img' height={300} />
+                            <Image src={Sathvikavenue3} alt='img' height={300} />
                         </Grid.Col>
                     </Grid>
                 </div>
@@ -184,4 +184,4 @@ function Satvikfurtuneprojectpage() {
     )
 }
 
-export default Satvikfurtuneprojectpage
+export default Sathvikavenueprojectpage
