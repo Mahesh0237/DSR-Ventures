@@ -66,7 +66,7 @@ function Sathvikavenueprojectpage() {
                 </Grid.Col>
                 <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
                     <Projectcontactform
-                        pdf={Satvik_Fortune}
+                        pdf=""
                         project_name="DSR Satvik Fortune City"
                     />
                 </Grid.Col>
@@ -88,7 +88,7 @@ function Sathvikavenueprojectpage() {
                                 Location Advantage:Bang on National Highway (NH-75): Ensures easy access to all parts of Bangalore and beyond.
                             </Text>
                             <Group>
-                                <Button color='#0b9444' leftSection={<IconDownload size={18} />} size='md' component='a' href={Satvik_Fortune} download="Satvik_Fortune">Download Brochure</Button>
+                                <Button color='#0b9444' leftSection={<IconDownload size={18} />} size='md' component='a' href="" download="Satvik_Fortune">Download Brochure</Button>
                             </Group>
                         </Stack>
                     </Grid.Col>

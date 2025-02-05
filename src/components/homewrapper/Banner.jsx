@@ -4,17 +4,6 @@ import { useRef } from 'react';
 import Autoplay from 'embla-carousel-autoplay';
 import { useViewportSize } from '@mantine/hooks'
 import { Carousel } from '@mantine/carousel';
-import slider3 from '../../assets/slider1.jpg'
-import slider5 from '../../assets/slider5.jpeg'
-import slider6 from '../../assets/slider6.jpeg'
-import slider7 from '../../assets/slider7.jpeg'
-import slider8 from '../../assets/slider8.jpeg'
-import slider9 from '../../assets/slider9.jpeg'
-import slider10 from '../../assets/slider10.jpeg'
-import slider11 from '../../assets/slider11.jpeg'
-import slider12 from '../../assets/slider12.jpeg'
-import slider13 from '../../assets/slider13.jpeg'
-import slider14 from '../../assets/slider14.jpeg'
 import video from '../../assets/brochure/DSR1.mp4'
 import video2 from '../../assets/brochure/DSR2.mp4'
 import video3 from '../../assets/brochure/DSR3.mp4'
@@ -43,32 +32,61 @@ function Banner() {
                     style={{ flex: 1 }}
                 >
                     <Carousel.Slide>
-                        <div style={{ width: '100%', height: '100%' }}>
+                        {/* <div style={{ width: '100%', height: '100%' }}>
                             <video controls autoPlay muted loop width="100%" height="100%">
+                                <source src={video} type="video/mp4" />
+                            </video>
+                        </div> */}
+                        <div style={{ width: '100vw', height: '100%', overflow: 'hidden' }}>
+                            <video
+                                controls
+                                autoPlay
+                                muted
+                                loop
+                                style={{
+                                    width: '100%',
+                                    height: '100%',
+                                    objectFit: 'cover' // Ensures the video fills the space without distortion
+                                }}
+                            >
                                 <source src={video} type="video/mp4" />
                             </video>
                         </div>
                     </Carousel.Slide>
                     <Carousel.Slide>
-                        <div style={{ width: '100%', height: '100%' }}>
-                            <video controls autoPlay muted loop width="100%" height="100%">
+                        <div style={{ width: '100vw', height: '100%', overflow: 'hidden' }}>
+                            <video
+                                controls
+                                autoPlay
+                                muted
+                                loop
+                                style={{
+                                    width: '100%',
+                                    height: '100%',
+                                    objectFit: 'cover' // Ensures the video fills the space without distortion
+                                }}
+                            >
                                 <source src={video2} type="video/mp4" />
                             </video>
                         </div>
                     </Carousel.Slide>
                     <Carousel.Slide>
-                        <div style={{ width: '100%', height: '100%' }}>
-                            <video controls autoPlay muted loop width="100%" height="100%">
+                        <div style={{ width: '100vw', height: '100%', overflow: 'hidden' }}>
+                            <video
+                                controls
+                                autoPlay
+                                muted
+                                loop
+                                style={{
+                                    width: '100%',
+                                    height: '100%',
+                                    objectFit: 'cover' // Ensures the video fills the space without distortion
+                                }}
+                            >
                                 <source src={video3} type="video/mp4" />
                             </video>
                         </div>
                     </Carousel.Slide>
-                    {/* <Carousel.Slide>
-                        <img src={slider9} width="100%" height="100%" />
-                    </Carousel.Slide>
-                    <Carousel.Slide>
-                        <img src={slider14} width="100%" height="100%" />
-                    </Carousel.Slide> */}
                 </Carousel>
             </div>
         </Stack>

@@ -16,6 +16,7 @@ import project2 from '../../assets/greenwoodmedwoos.png'
 import project3 from '../../assets/green-avenues.jpg'
 import project4 from '../../assets/satvikamogaplot.png'
 import Sathvikavenue1 from '../../assets/Sathvikavenue1.jpeg'
+import sathvikelitebanner2 from '../../assets/sathvikelitebanner2.jpg'
 function Projectwrapper() {
     const autoplay = useRef(Autoplay({ delay: 2000 }));
     const { height, width } = useViewportSize();
@@ -142,6 +143,24 @@ function Projectwrapper() {
                             </Group>
                             <Text ta="justify" py={20}>Green Avenues residential sites in fully developed plotted layout in Ramsandra village Narsapura.</Text>
                             <Button variant="filled" color='#0b9444' size='md' component='a' href='/greenavenuesdetails'>View Details</Button>
+                        </Card>
+                    </Grid.Col>
+                    <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                        <Card shadow="sm" padding="lg" radius="md" withBorder>
+                            <Card.Section>
+                                <Image
+                                    src={sathvikelitebanner2}
+                                    height={260}
+                                    alt="Norway"
+                                    style={{ objectFit: "fill" }}
+                                />
+                            </Card.Section>
+                            <Group justify="space-between" mt="md" >
+                                <Text fw={700} style={{ fontSize: "20px" }} ta="center">Sathvik  Elite</Text>
+
+                            </Group>
+                            <Text ta="justify" py={20}>Sathvik Elite Farms is strategically located near Hoskote in Karnataka.</Text>
+                            <Button variant="filled" color='#0b9444' size='md' component='a' href='/sathvikelite'>View Details</Button>
                         </Card>
                     </Grid.Col>
                 </Grid>

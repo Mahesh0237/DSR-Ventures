@@ -160,7 +160,7 @@ function Satvikfurtuneprojectpage() {
                     <Text fw={700} style={{ fontSize: "25px" }} pb={20}>Location</Text>
                     <Grid>
                         <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15564.848004848904!2d77.65383480000001!3d12.76473995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6ecacda35401%3A0x4dfe4672a7c89184!2sHaragadde%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1727801959750!5m2!1sen!2sin" width="600" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3885.68241792924!2d77.89624407507897!3d13.119294187209803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDA3JzA5LjUiTiA3N8KwNTMnNTUuOCJF!5e0!3m2!1sen!2sin!4v1738770718971!5m2!1sen!2sin" width="600" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </Grid.Col>
                         <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
                             <Stack>
