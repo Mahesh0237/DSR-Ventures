@@ -92,19 +92,19 @@ function Sathvikeliteprojectpage() {
                     </Grid.Col>
                 </Grid>
                 <div className='my-3'>
-                    <Text fw={700} style={{ fontSize: "22px", paddingBottom:"10px" }} >Why DSR Ventures</Text>
+                    <Text fw={700} style={{ fontSize: "22px", paddingBottom: "10px" }} >Why DSR Ventures</Text>
                     <Text>
                         In 2012, a group of technocrats in India and overseas together to establish DSR VENTURES in Bangalore, the Silicon Valley of Asia. In a short span of time, this forward-looking company has carved a niche for itself in the demanding and dynamic real estate industry.</Text>
 
                 </div>
                 <div className='mb-3'>
-                    <Text fw={700} style={{ fontSize: "22px", paddingBottom:"10px" }} >Sathvik Elite Farms</Text>
+                    <Text fw={700} style={{ fontSize: "22px", paddingBottom: "10px" }} >Sathvik Elite Farms</Text>
                     <Text>
                         Every feature in Sathvik Elite Farms is provided to ensure that, it not only increases the aesthetic value of the layout but also contributes to the choice of lifestyle made when you decided to become a part of Sathvik Elite Farms.Good for investment
                     </Text>
                 </div>
                 <div className=''>
-                    <Text fw={700} style={{ fontSize: "22px", paddingBottom:"10px" }} >Amenities</Text>
+                    <Text fw={700} style={{ fontSize: "22px", paddingBottom: "10px" }} >Amenities</Text>
                     <Text>
                         DSR VENTURES offers a mix of great lifestyle,Perfect For Investment Gated community ,Fully compunded layout with CCTV Survelliance ,borewell ,Avenue plantation kids' play area, and many more, that you keep enjoying all your life.</Text>
                 </div>
@@ -180,7 +180,7 @@ function Sathvikeliteprojectpage() {
                         <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
                             <Stack>
                                 <Text fw={600} size='lg'>For Enquiries contact:</Text>
-                                <Text>38/A, Dyavasandra Village, Haragadde Post, Anekal Taluk, Bangalore Urban, <br /> Karnataka- 560099.</Text>
+                                <Text>24/,3rdCross, Subashnagar, Battarahalli, Virgonagar post, K.R Puram, Bangalore-49, India.</Text>
                                 <div>
                                     <Text fw={600}>Email</Text>
                                     <Text>dsrprojects7@gmail.com</Text>

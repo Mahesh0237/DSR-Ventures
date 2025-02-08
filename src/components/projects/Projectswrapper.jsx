@@ -15,6 +15,7 @@ import project1 from '../../assets/project1.jpg'
 import project2 from '../../assets/greenwoodmedwoos.png'
 import project3 from '../../assets/green-avenues.jpg'
 import project4 from '../../assets/satvikamogaplot.png'
+import Sathviklotusfarm2 from '../../assets/Sathviklotusfarm7.jpeg'
 import Sathvikavenue1 from '../../assets/Sathvikavenue1.jpeg'
 import sathvikelitebanner2 from '../../assets/sathvikelitebanner2.jpg'
 function Projectwrapper() {
@@ -161,6 +162,24 @@ function Projectwrapper() {
                             </Group>
                             <Text ta="justify" py={20}>Sathvik Elite Farms is strategically located near Hoskote in Karnataka.</Text>
                             <Button variant="filled" color='#0b9444' size='md' component='a' href='/sathvikelite'>View Details</Button>
+                        </Card>
+                    </Grid.Col>
+                    <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                        <Card shadow="sm" padding="lg" radius="md" withBorder>
+                            <Card.Section>
+                                <Image
+                                    src={Sathviklotusfarm2}
+                                    height={260}
+                                    alt="Norway"
+                                    style={{ objectFit: "fill" }}
+                                />
+                            </Card.Section>
+                            <Group justify="space-between" mt="md" >
+                                <Text fw={700} style={{ fontSize: "20px" }} ta="center">Sathvik Lotus Farm</Text>
+
+                            </Group>
+                            <Text ta="justify" py={20}>SATHVIK LOTUS FARMS - a fascinating farm land near Bengaluru (Hosakote) which gives a pleasure of living on the lap of “MOTHER EARTH”.</Text>
+                            <Button variant="filled" color='#0b9444' size='md' component='a' href='/sathviklotusfarm'>View Details</Button>
                         </Card>
                     </Grid.Col>
                 </Grid>

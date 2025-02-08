@@ -124,8 +124,8 @@ function Greenavenuesprojectpage() {
                     <Text>Assured of the best Investment on Your Villa Plot.</Text>
                 </div>
                 <div className='my-5'>
-                <Text fw={700} style={{ fontSize: "25px" }} pb={20}>Advantages</Text>
-                <List spacing={10}>
+                    <Text fw={700} style={{ fontSize: "25px" }} pb={20}>Advantages</Text>
+                    <List spacing={10}>
                         <List.Item>As you drift away from city on NH-4 and International Airport, a transformation of a busy city life into a typical systematic environment.</List.Item>
                         <List.Item>DSR Green Avenues situated at one of the hottest location & fast developing automobile hub in North-East Bangalore which is the houses of 468 Japanese companies in Narasapura Industrial Estate.</List.Item>
                         <List.Item>Many landmarks like MVJ Medical College, Sharanya Narayani International School, VOLVO, Confident Amoon Resort, Apex Auto, Bando, Exedy, Honda, Mahindra Aerospace, Scania, Lumax, Aisin, Indo, ASK Automobile and Many more.</List.Item>
@@ -133,17 +133,17 @@ function Greenavenuesprojectpage() {
                     </List>
                 </div>
                 <div className='my-5'>
-                <Text fw={700} style={{ fontSize: "25px" }} pb={20}>Highlights</Text>
-                <List spacing={10}>
-                       <List.Item>45 Mins. drive from City Railway station & Bustop.</List.Item>
-                       <List.Item>30 Mins. drive from International Airport.</List.Item>
-                       <List.Item>25 Mins. drive from ITPL.</List.Item>
-                       <List.Item>20 Mins. drive from K R Puram Hanging Bridge.</List.Item>
-                       <List.Item>10 Mins. drive from Hoskote.</List.Item>
-                       <List.Item>3 Mins. drive to Volvo.</List.Item>
-                       <List.Item>3 Mins. drive to Narasapura Automobile Hub.</List.Item>
-                       <List.Item>3 Mins. from National Highway.</List.Item>
-                       <List.Item>Close to upcoming Chennai-Bangalore Industrial Corridor.</List.Item>
+                    <Text fw={700} style={{ fontSize: "25px" }} pb={20}>Highlights</Text>
+                    <List spacing={10}>
+                        <List.Item>45 Mins. drive from City Railway station & Bustop.</List.Item>
+                        <List.Item>30 Mins. drive from International Airport.</List.Item>
+                        <List.Item>25 Mins. drive from ITPL.</List.Item>
+                        <List.Item>20 Mins. drive from K R Puram Hanging Bridge.</List.Item>
+                        <List.Item>10 Mins. drive from Hoskote.</List.Item>
+                        <List.Item>3 Mins. drive to Volvo.</List.Item>
+                        <List.Item>3 Mins. drive to Narasapura Automobile Hub.</List.Item>
+                        <List.Item>3 Mins. from National Highway.</List.Item>
+                        <List.Item>Close to upcoming Chennai-Bangalore Industrial Corridor.</List.Item>
                     </List>
                 </div>
                 <div className='my-4'>
@@ -163,7 +163,7 @@ function Greenavenuesprojectpage() {
                         <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
                             <Stack>
                                 <Text fw={600} size='lg'>For Enquiries contact:</Text>
-                                <Text>Bangalore Urban, <br /> Karnataka- 560099.</Text>
+                                <Text>24/,3rdCross, Subashnagar, Battarahalli, Virgonagar post, K.R Puram, Bangalore-49, India.</Text>
                                 <div>
                                     <Text fw={600}>Email</Text>
                                     <Text>dsrprojects7@gmail.com</Text>

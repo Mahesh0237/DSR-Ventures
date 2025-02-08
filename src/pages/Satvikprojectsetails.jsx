@@ -60,7 +60,7 @@ function Satvikprojectsetails() {
                         <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
                             <Stack>
                                 <Text fw={600} size='lg'>For inquiries contact:</Text>
-                                <Text>38/A, Dyavasandra Village, Haragadde Post, Anekal Taluk, Bangalore Urban, <br /> Karnataka- 560099.</Text>
+                                <Text>24/,3rdCross,Subashnagar,Battarahalli, Virgonagar post, K.R Puram, Bangalore-49, India.</Text>
                                 <div>
                                     <Text fw={600}>Website</Text>
                                     <Text component='a' href='www.dsrventures.com' target='_blank'>www.dsrventures.com</Text>
