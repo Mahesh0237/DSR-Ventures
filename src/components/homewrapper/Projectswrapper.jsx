@@ -6,6 +6,7 @@ import project2 from '../../assets/greenwoodmedwoos.png'
 import project3 from '../../assets/project3.png'
 import project4 from '../../assets/home1.avif'
 import project5 from '../../assets/satvikamogaplot.png'
+import sathvikfusioncity from '../../assets/Sathvikfusioncity.png'
 import farm4 from '../../assets/home2.avif'
 import home3 from '../../assets/home3.avif'
 import home4 from '../../assets/home4.avif'
@@ -68,6 +69,21 @@ function Projectswrapper() {
                                     </a>
                                 </div>
                                 <div className="slide">
+                                    <a className="main-part" href='/sathvikfusioncity'>
+                                        <div className="img">
+                                            <div className="box">
+                                                <div></div>
+                                            </div>
+                                            <img src={sathvikfusioncity} />
+                                        </div>
+                                        <h3>Dsr Sathvik Fusion City</h3>
+                                        <div className="heading">
+                                            <p>DSR Sathvik Fusion City is a prestigious, BMRDA - approved residential.  </p>
+                                        </div>
+                                        <div className="link">View More</div>
+                                    </a>
+                                </div>
+                                <div className="slide">
                                     <a className="main-part" href='#'>
                                         <div className="img">
                                             <div className="box">
@@ -75,30 +91,49 @@ function Projectswrapper() {
                                             </div>
                                             <img src={comingsoon} />
                                         </div>
-                                        <h3>Sathvik Fortune Sqaure</h3>
-                                        <div className="heading">
+                                        <h3>DSR Sathvik Dream city</h3>
+                                        {/* <div className="heading">
                                             <p>Experience a perfect blend of modern architecture, comfort, and convenience at Sathvik Fortune Square.</p>
-                                        </div>
+                                        </div> */}
                                         <div className="link">
                                             View More
                                         </div>
                                     </a>
                                 </div>
-                                {/* <div className="slide">
+                                <div className="slide">
                                     <a className="main-part" href='#'>
                                         <div className="img">
                                             <div className="box">
                                                 <div></div>
                                             </div>
-                                            <img src={project2} />
+                                            <img src={comingsoon} />
                                         </div>
-                                        <h3>Greenwood Meadows</h3>
-                                        <div className="heading">
-                                            <p>D.C.Converted residential sites in fully developed plotted layout in Maragondanahalli,  </p>
+                                        <h3>Dsr Sathvik Snow City</h3>
+                                        {/* <div className="heading">
+                                            <p>Experience a perfect blend of modern architecture, comfort, and convenience at Sathvik Fortune Square.</p>
+                                        </div> */}
+                                        <div className="link">
+                                            View More
                                         </div>
-                                        <div className="link">View More</div>
                                     </a>
-                                </div> */}
+                                </div>
+                                <div className="slide">
+                                    <a className="main-part" href='#'>
+                                        <div className="img">
+                                            <div className="box">
+                                                <div></div>
+                                            </div>
+                                            <img src={comingsoon} />
+                                        </div>
+                                        <h3>Dsr Sathvik Golden city</h3>
+                                        {/* <div className="heading">
+                                            <p>Experience a perfect blend of modern architecture, comfort, and convenience at Sathvik Fortune Square.</p>
+                                        </div> */}
+                                        <div className="link">
+                                            View More
+                                        </div>
+                                    </a>
+                                </div>
                             </Group>
                         </div>
                     </div>

@@ -13,6 +13,7 @@ import Satvikamogaplotspage from './pages/Satvikamogaplotspage'
 import Sathvikavenueprojectpage from './pages/Sathvikavenueprojectpage'
 import Sathvikeliteprojectpage from './pages/Sathvikeliteprojectpage'
 import Lotusfarmprojectpage from './pages/Lotusfarmprojectpage'
+import Sathvikfusioncitypage from './pages/Sathvikfusioncitypage'
 function Approuter() {
     return (
         <BrowserRouter>
@@ -29,6 +30,7 @@ function Approuter() {
                 <Route path='/sathvikavenue' element={<Sathvikavenueprojectpage />} />
                 <Route path='/sathvikelite' element={<Sathvikeliteprojectpage />} />
                 <Route path='/sathviklotusfarm' element={<Lotusfarmprojectpage />} />
+                <Route path='/sathvikfusioncity' element={<Sathvikfusioncitypage />} />
             </Routes>
         </BrowserRouter>
     )
