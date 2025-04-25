@@ -10,12 +10,12 @@ function Footer() {
     return (
         // <footer className="site-footer" style={{ background: "#0b9444" }}>
         <footer className="site-footer"
-        style={{ 
-            backgroundImage: `linear-gradient(rgba(11, 148, 68, 0.8), rgba(11, 148, 68, 0.8)), url(${footerbg})`, 
-            backgroundSize: "cover", 
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat"
-        }}>
+            style={{
+                backgroundImage: `linear-gradient(rgba(11, 148, 68, 0.8), rgba(11, 148, 68, 0.8)), url(${footerbg})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat"
+            }}>
             <div className="section-wrapper">
                 <div className="footer-top-wrapper">
                     <div className="footer-col">
@@ -31,7 +31,7 @@ function Footer() {
                             <a href="/aboutus" className='text-white'>About DSR</a>
                         </div>
                         <div className="link-col">
-                            <a href="/projectsdetail" className='text-white'>Projects</a>
+                            <a href="/projects" className='text-white'>Projects</a>
                         </div>
                         <div className="link-col">
                             <a href="/contactus" className='text-white'>Contact Us</a>
@@ -48,18 +48,29 @@ function Footer() {
                         </div>
                     </div>
                     <div className="footer-col get-in-touch">
-                        <div className="footer-sub-header text-white">Get In Touch</div>
                         <div className="footer-contact-wrapper">
+                            <div className="footer-contact-col">
+                                <div className="footer-label text-white" style={{fontSize:"17px"}}>Projects</div>
+                                <div className="footer-contact" style={{ display: "flex", flexDirection: "column" }}>
+                                    <a href="/satvikamogaplots" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Amogha Plots</a>
+                                    <a href="/satvikprojectdetails" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Fortune City</a>
+                                    <a href="/sathvikfusioncity" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Fusion City</a>
+                                    <a href="#" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Dream City</a>
+                                    <a href="#" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik snow City</a>
+                                    <a href="#" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik golden City</a>
+                                    <a href="/sathvikavenue" className='text-white' style={{ fontSize: "16px" }}>Sathvik Avenues</a>
+                                    <a href="/preranagreensdetails" className='text-white' style={{ fontSize: "16px" }}>Prerana Greens</a>
+                                    <a href="/greenavenuesdetails" className='text-white' style={{ fontSize: "16px" }}>Greenwood Meadows</a>
+                                    <a href="#" className='text-white' style={{ fontSize: "16px" }}>Green Avenues</a>
+                                    <a href="/sathvikelite" className='text-white' style={{ fontSize: "16px" }}>Sathvik Elite</a>
+                                    <a href="/sathviklotusfarm" className='text-white' style={{ fontSize: "16px" }}>Sathvik Lotus Farm</a>
+                                </div>
+                            </div>
                             <div className="footer-contact-col footer-contact-info">
                                 <div className="footer-contact-col-item">
-                                    {/* <div className="footer-label">Office</div> */}
-                                    <div className="footer-contact">
+                                    <div className="footer-label text-white">Get in Touch</div>
+                                    <div className="footer-contact" style={{ display: "flex", flexDirection: "column" }}>
                                         <a href="#" className="phone-number text-white">+91 8088977779</a>
-                                    </div>
-                                </div>
-                                <div className="footer-contact-col-item">
-                                    {/* <div className="footer-label">Email</div> */}
-                                    <div className="footer-contact mt-0">
                                         <a href="#" className="email text-white">dsrprojects7@gmail.com</a>
                                     </div>
                                 </div>
@@ -70,6 +81,7 @@ function Footer() {
                                     <a href="#" className='text-white'>24/,3rdCross,Subashnagar,Battarahalli, Virgonagar post, K.R Puram, Bangalore-49, India.</a>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>

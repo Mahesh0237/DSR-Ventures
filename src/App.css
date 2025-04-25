@@ -2378,8 +2378,8 @@ footer .footer-bottom-wrapper .footer-col.get-in-touch .footer-contact-wrapper {
 }
 
 footer .footer-bottom-wrapper .footer-col.get-in-touch .footer-contact-wrapper .footer-contact-col {
-    margin-top: 30px;
-    width: 50%;
+    /* margin-top: 30px; */
+    width: 40%;
 }
 
 @media screen and (max-width: 768px) {
