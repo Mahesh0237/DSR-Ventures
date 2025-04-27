@@ -50,12 +50,12 @@ function Footer() {
                     <div className="footer-col get-in-touch">
                         <div className="footer-contact-wrapper">
                             <div className="footer-contact-col">
-                                <div className="footer-label text-white" style={{fontSize:"17px"}}>Projects</div>
+                                <div className="footer-label text-white" style={{ fontSize: "17px" }}>Projects</div>
                                 <div className="footer-contact" style={{ display: "flex", flexDirection: "column" }}>
                                     <a href="/satvikamogaplots" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Amogha Plots</a>
                                     <a href="/satvikprojectdetails" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Fortune City</a>
                                     <a href="/sathvikfusioncity" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Fusion City</a>
-                                    <a href="#" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Dream City</a>
+                                    <a href="/sathvikdreamcity" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Dream City</a>
                                     <a href="#" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik snow City</a>
                                     <a href="#" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik golden City</a>
                                     <a href="/sathvikavenue" className='text-white' style={{ fontSize: "16px" }}>Sathvik Avenues</a>

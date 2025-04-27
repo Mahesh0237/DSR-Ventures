@@ -25,6 +25,7 @@ import bank5 from '../../assets/bank5.png'
 import bank6 from '../../assets/bank6.png'
 import bank7 from '../../assets/bank7.png'
 import bank8 from '../../assets/bank8.png'
+import sathvikdreamcity from '../../assets/sathvikdreamcity.png'
 
 function Projectswrapper() {
     const autoplay = useRef(Autoplay({ delay: 2000 }));
@@ -84,17 +85,17 @@ function Projectswrapper() {
                                     </a>
                                 </div>
                                 <div className="slide">
-                                    <a className="main-part" href='#'>
+                                    <a className="main-part" href='/sathvikdreamcity'>
                                         <div className="img">
                                             <div className="box">
                                                 <div></div>
                                             </div>
-                                            <img src={comingsoon} />
+                                            <img src={sathvikdreamcity} />
                                         </div>
                                         <h3>DSR Sathvik Dream city</h3>
-                                        {/* <div className="heading">
-                                            <p>Experience a perfect blend of modern architecture, comfort, and convenience at Sathvik Fortune Square.</p>
-                                        </div> */}
+                                        <div className="heading">
+                                            <p>DSR Sathvik Dream City is a prestigious, BMRDA-approved residential layout located.....</p>
+                                        </div>
                                         <div className="link">
                                             View More
                                         </div>
@@ -108,10 +109,10 @@ function Projectswrapper() {
                                             </div>
                                             <img src={comingsoon} />
                                         </div>
-                                        <h3>Dsr Sathvik Snow City</h3>
-                                        {/* <div className="heading">
-                                            <p>Experience a perfect blend of modern architecture, comfort, and convenience at Sathvik Fortune Square.</p>
-                                        </div> */}
+                                        <h3 className=''>Dsr Sathvik Snow City</h3>
+                                        <div className="heading">
+                                            <p>Discover a new world of luxury living at DSR Sathvik Snow City</p>
+                                        </div>
                                         <div className="link">
                                             View More
                                         </div>
@@ -126,9 +127,9 @@ function Projectswrapper() {
                                             <img src={comingsoon} />
                                         </div>
                                         <h3>Dsr Sathvik Golden city</h3>
-                                        {/* <div className="heading">
-                                            <p>Experience a perfect blend of modern architecture, comfort, and convenience at Sathvik Fortune Square.</p>
-                                        </div> */}
+                                        <div className="heading">
+                                            <p>Step into a world of endless possibilities at DSR Sathvik Golden City.</p>
+                                        </div>
                                         <div className="link">
                                             View More
                                         </div>

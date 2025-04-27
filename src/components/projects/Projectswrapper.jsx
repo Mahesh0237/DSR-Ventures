@@ -18,6 +18,8 @@ import project4 from '../../assets/satvikamogaplot.png'
 import Sathviklotusfarm2 from '../../assets/Sathviklotusfarm7.jpeg'
 import Sathvikavenue1 from '../../assets/Sathvikavenue1.jpeg'
 import sathvikelitebanner2 from '../../assets/sathvikelitebanner2.jpg'
+import sathvikdreamcity from '../../assets/sathvikdreamcity.png'
+import Sathvikfusioncity from '../../assets/Sathvikfusioncity.png'
 function Projectwrapper() {
     const autoplay = useRef(Autoplay({ delay: 2000 }));
     const { height, width } = useViewportSize();
@@ -72,6 +74,42 @@ function Projectwrapper() {
                             </Group>
                             <Text ta="justify" py={20}>Bangalore is fast developing into a world class city with stateof-the art infrastructure to meet the growing.</Text>
                             <Button variant="filled" color='#0b9444' size='md' component='a' href='/satvikamogaplots'>View Details</Button>
+                        </Card>
+                    </Grid.Col>
+                    <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                        <Card shadow="sm" padding="lg" radius="md" withBorder>
+                            <Card.Section>
+                                <Image
+                                    src={Sathvikfusioncity}
+                                    height={260}
+                                    alt="Norway"
+                                    style={{ objectFit: "fill" }}
+                                />
+                            </Card.Section>
+                            <Group justify="space-between" mt="md" >
+                                <Text fw={700} style={{ fontSize: "20px" }} ta="center">Sathvik Fusion City</Text>
+
+                            </Group>
+                            <Text ta="justify" py={20}>DSR Sathvik Fusion City is a prestigious, BMRDA - approved residential layout located in the thriving suburb of Hoskote.</Text>
+                            <Button variant="filled" color='#0b9444' size='md' component='a' href='/sathvikfusioncity'>View Details</Button>
+                        </Card>
+                    </Grid.Col>
+                    <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                        <Card shadow="sm" padding="lg" radius="md" withBorder>
+                            <Card.Section>
+                                <Image
+                                    src={sathvikdreamcity}
+                                    height={260}
+                                    alt="Norway"
+                                    style={{ objectFit: "fill" }}
+                                />
+                            </Card.Section>
+                            <Group justify="space-between" mt="md" >
+                                <Text fw={700} style={{ fontSize: "20px" }} ta="center">Sathvik Dream City</Text>
+
+                            </Group>
+                            <Text ta="justify" py={20}>DSR Sathvik Dream City is a prestigious, BMRDA- approved residential layout located in the thriving suburb of Hoskote.</Text>
+                            <Button variant="filled" color='#0b9444' size='md' component='a' href='/sathvikdreamcity'>View Details</Button>
                         </Card>
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
