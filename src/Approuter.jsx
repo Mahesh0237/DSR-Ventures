@@ -24,7 +24,7 @@ function Approuter() {
                 <Route path='/projects' element={<Projectpage />} />
                 <Route path='/contactus' element={<Contactuspage />} />
                 <Route path='/projectdetails' element={<Projectdetailspage />} />
-                <Route path='/satvikprojectdetails' element={<Satvikfurtuneprojectpage />} />
+                <Route path='/satvikfortunedetails' element={<Satvikfurtuneprojectpage />} />
                 <Route path='/preranagreensdetails' element={<Preranagreensprojectpage />} />
                 <Route path='/greenavenuesdetails' element={<Greenavenuesprojectpage />} />
                 <Route path='/satvikamogaplots' element={<Satvikamogaplotspage />} />

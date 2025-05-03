@@ -8,6 +8,18 @@ import dsrgallery1 from '../assets/dsr_gallery1.jpeg'
 import dsrgallery2 from '../assets/dsr_gallery2.jpeg'
 import dsrgallery3 from '../assets/dsr_gallery3.jpeg'
 import dsrgallery4 from '../assets/dsr_gallery4.jpeg'
+import sathvikfortunecity1 from '../assets/sathvikfortunecity1.jpeg'
+import sathvikfortunecity2 from '../assets/sathvikfortunecity2.jpeg'
+import sathvikfortunecity3 from '../assets/sathvikfortunecity3.jpeg'
+import sathvikfortunecity4 from '../assets/sathvikfortunecity4.jpeg'
+import sathvikfortunecity5 from '../assets/sathvikfortunecity5.jpeg'
+import sathvikfortunecity6 from '../assets/sathvikfortunecity6.jpeg'
+import sathvikfortunecity7 from '../assets/sathvikfortunecity7.jpeg'
+import sathvikfortunecity8 from '../assets/sathvikfortunecity8.jpeg'
+import sathvikfortunecity9 from '../assets/sathvikfortunecity9.jpeg'
+import sathvikfortunecity10 from '../assets/sathvikfortunecity10.jpeg'
+import sathvikfortunecity11 from '../assets/sathvikfortunecity11.jpeg'
+import sathvikfortunecity12 from '../assets/sathvikfortunecity12.jpeg'
 import Dsr_fortune_city from '../assets/dsr_satvik_fortune_city.jpeg'
 import Footer from '../components/shared/Footer'
 import { useRef } from 'react';
@@ -42,24 +54,24 @@ function Satvikfurtuneprojectpage() {
 
                         <div style={{ height: updateheight, display: 'flex' }}>
                             <Carousel
-                                withControls={false}
+                                // withControls={false}
                                 withIndicators
                                 height="100%"
-                                dragFree
                                 loop
                                 style={{ flex: 1 }}
                                 plugins={[autoplay.current]}
                                 onMouseEnter={autoplay.current.stop}
                                 onMouseLeave={autoplay.current.reset}
+                            
                             >
                                 <Carousel.Slide>
                                     <img src={Dsr_fortune_city} width="100%" height="100%" />
                                 </Carousel.Slide>
                                 <Carousel.Slide>
-                                    <img src={dsrgallery1} width="100%" height="100%" />
+                                    <img src={sathvikfortunecity1} width="100%" height="100%" />
                                 </Carousel.Slide>
                                 <Carousel.Slide>
-                                    <img src={dsr_location} width="100%" height="100%" />
+                                    <img src={sathvikfortunecity2} width="100%" height="100%" />
                                 </Carousel.Slide>
                             </Carousel>
                         </div>
@@ -151,6 +163,42 @@ function Satvikfurtuneprojectpage() {
                         <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
                             <Image src={dsrgallery4} alt='img' height={300} />
                         </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                            <Image src={sathvikfortunecity1} alt='img' height={300} />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                            <Image src={sathvikfortunecity2} alt='img' height={300} />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                            <Image src={sathvikfortunecity3} alt='img' height={300} />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                            <Image src={sathvikfortunecity4} alt='img' height={300} />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                            <Image src={sathvikfortunecity5} alt='img' height={300} />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                            <Image src={sathvikfortunecity6} alt='img' height={300} />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                            <Image src={sathvikfortunecity7} alt='img' height={300} />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                            <Image src={sathvikfortunecity8} alt='img' height={300} />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                            <Image src={sathvikfortunecity9} alt='img' height={300} />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                            <Image src={sathvikfortunecity10} alt='img' height={300} />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                            <Image src={sathvikfortunecity11} alt='img' height={300} />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
+                            <Image src={sathvikfortunecity12} alt='img' height={300} />
+                        </Grid.Col>
                     </Grid>
                 </div>
                 <div className='my-3'>
@@ -160,7 +208,7 @@ function Satvikfurtuneprojectpage() {
                     <Text fw={700} style={{ fontSize: "25px" }} pb={20}>Location</Text>
                     <Grid>
                         <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3885.68241792924!2d77.89624407507897!3d13.119294187209803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDA3JzA5LjUiTiA3N8KwNTMnNTUuOCJF!5e0!3m2!1sen!2sin!4v1738770718971!5m2!1sen!2sin" width="600" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3885.68241792924!2d77.89624407507897!3d13.119294187209803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDA3JzA5LjUiTiA3N8KwNTMnNTUuOCJF!5e0!3m2!1sen!2sin!4v1738770718971!5m2!1sen!2sin" width="600" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </Grid.Col>
                         <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
                             <Stack>

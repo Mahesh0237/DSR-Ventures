@@ -18,7 +18,7 @@ import project4 from '../../assets/satvikamogaplot.png'
 import Sathviklotusfarm2 from '../../assets/Sathviklotusfarm7.jpeg'
 import Sathvikavenue1 from '../../assets/Sathvikavenue1.jpeg'
 import sathvikelitebanner2 from '../../assets/sathvikelitebanner2.jpg'
-import sathvikdreamcity from '../../assets/sathvikdreamcity.png'
+import sathvikdreamcity from '../../assets/sathvikdreamcity1.jpeg'
 import Sathvikfusioncity from '../../assets/Sathvikfusioncity.png'
 function Projectwrapper() {
     const autoplay = useRef(Autoplay({ delay: 2000 }));
@@ -55,7 +55,7 @@ function Projectwrapper() {
 
                             </Group>
                             <Text ta="justify" py={20}>DSR Fortune City is a prestigious, BMRDA-approved residential layout located in the thriving suburb of Hoskote, Bangalore.</Text>
-                            <Button variant="filled" color='#0b9444' size='md' component='a' href='/satvikprojectdetails'>View Details</Button>
+                            <Button variant="filled" color='#0b9444' size='md' component='a' href='/satvikfortunedetails'>View Details</Button>
                         </Card>
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>

@@ -25,7 +25,7 @@ import bank5 from '../../assets/bank5.png'
 import bank6 from '../../assets/bank6.png'
 import bank7 from '../../assets/bank7.png'
 import bank8 from '../../assets/bank8.png'
-import sathvikdreamcity from '../../assets/sathvikdreamcity.png'
+import sathvikdreamcity from '../../assets/sathvikdreamcity1.jpeg'
 
 function Projectswrapper() {
     const autoplay = useRef(Autoplay({ delay: 2000 }));
@@ -40,7 +40,7 @@ function Projectswrapper() {
                         <div className="latest-listings-slider">
                             <Group justify="center">
                                 <div className="slide">
-                                    <a className="main-part" href='/satvikprojectdetails'>
+                                    <a className="main-part" href='/satvikfortunedetails'>
                                         <div className="img">
                                             <div className="box">
                                                 <div></div>

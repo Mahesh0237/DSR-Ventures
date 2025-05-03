@@ -53,7 +53,7 @@ function Footer() {
                                 <div className="footer-label text-white" style={{ fontSize: "17px" }}>Projects</div>
                                 <div className="footer-contact" style={{ display: "flex", flexDirection: "column" }}>
                                     <a href="/satvikamogaplots" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Amogha Plots</a>
-                                    <a href="/satvikprojectdetails" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Fortune City</a>
+                                    <a href="/satvikfortunedetails" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Fortune City</a>
                                     <a href="/sathvikfusioncity" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Fusion City</a>
                                     <a href="/sathvikdreamcity" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik Dream City</a>
                                     <a href="#" className='text-white' style={{ fontSize: "16px" }}>DSR Sathvik snow City</a>

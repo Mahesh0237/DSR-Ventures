@@ -4,19 +4,10 @@ import { Button, Container, Grid, Group, Image, List, Stack, Text } from '@manti
 import Projectcontactform from '../components/newprojectwrapper/Projectcontactform'
 import DSRSathvikDreamCitybrochure from '../assets/brochure/DSR_Sathvik_Dream City.pdf'
 import { IconDownload } from '@tabler/icons-react'
-import dreamcity1 from '../assets/dreamcity1.jpeg'
-import dreamcity2 from '../assets/dreamcity2.jpeg'
-import dreamcity3 from '../assets/dreamcity3.jpeg'
-import dreamcity4 from '../assets/dreamcity4.jpeg'
-import dreamcity5 from '../assets/dreamcity5.jpeg'
-import dreamcity6 from '../assets/dreamcity6.jpeg'
-import dreamcity7 from '../assets/dreamcity7.jpeg'
-import dreamcity8 from '../assets/dreamcity8.jpeg'
-import dreamcity9 from '../assets/dreamcity9.jpeg'
-import dreamcity10 from '../assets/dreamcity10.jpeg'
-import dreamcity11 from '../assets/dreamcity11.jpeg'
-import dreamcity12 from '../assets/dreamcity12.jpeg'
+import dreamcity1 from '../assets/sathvikdreamcity1.jpeg'
+import dreamcity2 from '../assets/sathvikdreancity2.jpeg'
 import sathvikdreamcity from '../assets/sathvikdreamcity.png'
+import sathvikdreamcity3 from '../assets/sathvikdreamcity3.png'
 import Footer from '../components/shared/Footer'
 import { useRef } from 'react';
 import Autoplay from 'embla-carousel-autoplay';
@@ -63,9 +54,6 @@ function Sathvikdreamcitypage() {
                                 </Carousel.Slide>
                                 <Carousel.Slide>
                                     <img src={dreamcity2} width="100%" height="100%" />
-                                </Carousel.Slide>
-                                <Carousel.Slide>
-                                    <img src={dreamcity3} width="100%" height="100%" />
                                 </Carousel.Slide>
                             </Carousel>
                         </div>
@@ -142,40 +130,13 @@ function Sathvikdreamcitypage() {
                     <Text fw={700} style={{ fontSize: "30px" }} pb={20}>Gallery</Text>
                     <Grid>
                         <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dreamcity1} alt='img' height={300} />
+                            <Image src={dreamcity1} alt='img' height={300} style={{objectFit:"fill"}}/>
                         </Grid.Col>
                         <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dreamcity2} alt='img' height={300} />
+                            <Image src={dreamcity2} alt='img' height={300} style={{objectFit:"fill"}}/>
                         </Grid.Col>
                         <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dreamcity3} alt='img' height={300} />
-                        </Grid.Col>
-                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dreamcity4} alt='img' height={300} />
-                        </Grid.Col>
-                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dreamcity5} alt='img' height={300} />
-                        </Grid.Col>
-                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dreamcity6} alt='img' height={300} />
-                        </Grid.Col>
-                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dreamcity7} alt='img' height={300} />
-                        </Grid.Col>
-                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dreamcity8} alt='img' height={300} />
-                        </Grid.Col>
-                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dreamcity9} alt='img' height={300} />
-                        </Grid.Col>
-                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dreamcity10} alt='img' height={300} />
-                        </Grid.Col>
-                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dreamcity11} alt='img' height={300} />
-                        </Grid.Col>
-                        <Grid.Col span={{ base: 12, md: 4, lg: 4 }}>
-                            <Image src={dreamcity12} alt='img' height={300} />
+                            <Image src={sathvikdreamcity3} alt='img' height={300} style={{objectFit:"fill"}}/>
                         </Grid.Col>
                     </Grid>
                 </div>
